@@ -14,7 +14,6 @@ const ContactSection = () => {
             setError('Please fill out all fields.');
         } else {
             setError('');
-            // You can perform additional form submission logic here, such as sending data to a server
             alert('Form submitted successfully');
         }
     };
