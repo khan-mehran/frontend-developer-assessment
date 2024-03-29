@@ -51,6 +51,7 @@ footer{
 
     .hero-content .title{
             font-size: 56px;
+            line-height: 70px;
     }
     .hero h5{
         margin-top: 15px;
@@ -61,7 +62,7 @@ footer{
 /* for mobile responsive */
 @media only screen and (max-width:767px) {
     section{
-        padding: 30px 0;
+        padding: 40px 0;
     }
     .hero{
         display: flex;
@@ -75,5 +76,8 @@ footer{
     }
     #hero_image{
         order: 1;
+    }
+    #about, #contact{
+        padding: 90px 0;
     }
 }
