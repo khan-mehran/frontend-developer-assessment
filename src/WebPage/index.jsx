@@ -3,6 +3,7 @@ import Header from '../component/Header'
 import HomeSection from '../component/HomeSection';
 import AboutSection from '../component/AboutSection';
 import ContactSection from '../component/ContactSection';
+import Footer from '../component/Footer';
 
 const WebPage = () => {
   return (
@@ -15,6 +16,8 @@ const WebPage = () => {
         <AboutSection/>
 
         <ContactSection/>
+
+        <Footer/>
       </main>
 
     </>

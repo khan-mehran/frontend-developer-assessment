@@ -31,7 +31,7 @@ const ContactSection = () => {
                         architecto sint culpa suscipit?
                     </p>
                 </div>
-                <div className="contact-form-container">
+                <div className="contact-form-container pt-2">
                     <form className="contact-form" onSubmit={handleSubmit}>
                         <div className="mb-3">
                             <label htmlFor="exampleInputText1" className="form-label">
@@ -61,7 +61,7 @@ const ContactSection = () => {
                             />
                         </div>
                         {error && <div className="alert alert-danger">{error}</div>}
-                        <button type="submit" className="btn btn-primary">
+                        <button type="submit" className="btn btn-dark px-5">
                             Submit
                         </button>
                     </form>

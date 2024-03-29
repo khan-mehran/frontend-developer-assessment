@@ -10,7 +10,6 @@ const HomeSection = () => {
                             <h1 className="title">
                                 <span>Everything</span> is now <span>Digital</span>
                             </h1>
-                            <hr />
                             <h5>Make your bussiness online</h5>
                         </div>
                         <div className="col-md-6 text-end" id="hero_img">
